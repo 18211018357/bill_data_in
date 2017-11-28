@@ -6,10 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Redis集群配置
- * Created by lujun.chen on 2017/3/6.
- */
 @Configuration
 @ConfigurationProperties(prefix = "init.info")
 public class InitProperties {
