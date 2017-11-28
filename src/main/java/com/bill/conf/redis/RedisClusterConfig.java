@@ -16,7 +16,6 @@ import java.util.*;
 
 /**
  * Redis Cluster 配置类
- * Created by lujun.chen on 2017/3/3.
  */
 @Configuration
 @ConditionalOnClass(RedisClusterConfig.class)
