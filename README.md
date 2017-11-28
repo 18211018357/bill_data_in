@@ -1,10 +1,11 @@
-# bill_data_in
-# bill_data_in
-
+# bill_data_in redis mysql
 
 hdfs的文件导入mysql和redis集群
 
-配置就可以
+
+仅仅配置就可以
+
+
 
 #redis集群配置
 spring:
@@ -17,6 +18,9 @@ spring:
         - 192.168.186.161:7003
         - 192.168.186.161:7004
         - 192.168.186.161:7005
+        
+        
+        
 init:
   info:
     args:
