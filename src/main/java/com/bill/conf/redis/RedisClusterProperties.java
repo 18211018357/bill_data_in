@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * Redis集群配置
- * Created by lujun.chen on 2017/3/6.
  */
 @Configuration
 @ConfigurationProperties(prefix = "spring.redis.cluster")
